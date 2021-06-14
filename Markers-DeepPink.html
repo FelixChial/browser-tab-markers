@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Tab</title>
+    <link rel="icon" type="image/png" href="chrome://branding/content/icon32.png"/>
+</head>
+
+<script>
+    function setColor(color) {
+        document.getElementById("body").style.backgroundColor = color;
+    }
+</script>
+
+<style>
+    #footer {
+        position: fixed;
+        width: 100%;
+        height: 4%;
+        left: 0;
+        bottom: 0;
+    }
+    #footer button {
+        border: none;
+        padding: 0px;
+        padding-bottom: 100%;
+        cursor: pointer;
+        float: left;
+        width: 10%;
+    }
+</style>
+
+<body id="body" style="background-color: #FF1493;">
+    <div id="footer">
+        <!-- Gray7 -->
+        <button style="background-color: #121212;" onclick="setColor('#121212');"></button>
+
+        <!-- DarkSlateBlue -->
+        <button style="background-color: #483D8B;" onclick="setColor('#483D8B');"></button>
+
+        <!-- Purple -->
+        <button style="background-color: #800080;" onclick="setColor('#800080');"></button>
+
+        <!-- FireBrick -->
+        <button style="background-color: #B22222;" onclick="setColor('#B22222');"></button>
+
+        <!-- DeepPink -->
+        <button style="background-color: #FF1493;" onclick="setColor('#FF1493');"></button>
+
+        <!-- Violet -->
+        <button style="background-color: #ee82ee;" onclick="setColor('#ee82ee');"></button>
+
+        <!-- DarkSlateGray -->
+        <button style="background-color: #2f4f4f;" onclick="setColor('#2f4f4f');"></button>
+
+        <!-- DarkGreen -->
+        <button style="background-color: #006400;" onclick="setColor('#006400');"></button>
+
+        <!-- DarkBlue -->
+        <button style="background-color: #00008b;" onclick="setColor('#00008b');"></button>
+
+        <!-- SlateGray -->
+        <button style="background-color: #708090;" onclick="setColor('#708090');"></button>
+    </div>
+</body>
+</html>
