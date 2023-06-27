@@ -1,0 +1,26 @@
+#footer {
+    position: fixed;
+    width: 100vw;
+    height: 4vh;
+    left: 0;
+    bottom: 0;
+}
+
+.btn {
+    border: none;
+    padding-top: 4vh;
+    cursor: pointer;
+    float: left;
+    width: 10vw;
+}
+
+.marker-A { background-color: #121212;} /* Gray7 */
+.marker-B { background-color: #483D8B;} /* DarkSlateBlue */
+.marker-C { background-color: #800080;} /* Purple */
+.marker-D { background-color: #B22222;} /* FireBrick */
+.marker-E { background-color: #FF1493;} /* DeepPink */
+.marker-F { background-color: #ee82ee;} /* Violet */
+.marker-G { background-color: #2f4f4f;} /* DarkSlateGray */
+.marker-H { background-color: #006400;} /* DarkGreen */
+.marker-I { background-color: #00008b;} /* DarkBlue */
+.marker-J { background-color: #708090;} /* SlateGray */

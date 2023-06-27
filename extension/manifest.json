@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Markers",
+  "version": "0.1",
+  "description": "Allows you to mark browser windows with color.",
+  "developer": {
+    "name": "Felix Chial",
+    "url": "https://github.com/FelixChial"
+  },
+  "icons": {
+    "48": "focus.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "markers@linah.cf"
+    }
+  },
+  "action": {
+    "default_icon": "focus.png",
+    "default_title": "Tab Markers"
+  },
+  "background": {
+    "scripts": ["markers.js"]
+  }
+}
