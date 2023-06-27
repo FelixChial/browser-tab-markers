@@ -1,15 +1,14 @@
-.footer {
+#footer {
     position: fixed;
-    width: 100%;
-    height: 4%;
+    width: 100vw;
+    height: 4vh;
     left: 0;
     bottom: 0;
 }
 
-.footer a {
+.btn {
     border: none;
-    padding: 0px;
-    padding-bottom: 100%;
+    padding-top: 4vh;
     cursor: pointer;
     float: left;
     width: 10vw;
